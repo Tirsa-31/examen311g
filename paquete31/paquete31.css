@@ -1,0 +1,207 @@
+/*Created by Ardora http://www.webardora.net*/
+body {
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+background-image:url("images/none");
+background-position:center;
+background-repeat:repeat;
+background-color:#252D37;
+	margin: 0;
+	padding: 0;
+	font-size:11px;
+	font-style:normal;
+	color: #A4AFBD;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	color: #FFFFFF;
+}
+h1 { font-size: 31px; }
+h2 { font-size: 26px; }
+h3 { font-size: 18px; }
+p, ul, ol{
+	margin-top: 0;
+	padding-top: 0;
+	text-align: justify;
+	line-height: 18px;
+}
+a {
+	color: #95BA2E;
+	text-decoration: none;
+}
+a:hover {text-decoration: none;}
+.boxed {
+	margin: 0 0 20px 0;
+	padding: 0 20px 20px 20px;
+}
+.post {
+	margin: 0 0 5px 0;
+	padding: 10px 0px 0px 5px;
+}
+.post h4 {
+	margin-bottom: 20px;
+	font-size: 11px;
+	font-weight: normal;
+}
+.post h4 strong {
+	font-weight: bold;
+	color: #5B6F88;
+}
+#header {
+	width: 100%;
+	height: 50px;
+	margin: 0 auto;
+
+	border-bottom-color:#A4AFBD;
+	border-bottom-style:solid;
+	border-bottom-width:4px;
+	
+	
+	
+	background: rgb(30,87,153); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(32,124,202,1) 51%, rgba(41,137,216,1) 72%, rgba(125,185,232,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(51%,rgba(32,124,202,1)), color-stop(72%,rgba(41,137,216,1)), color-stop(100%,rgba(125,185,232,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(32,124,202,1) 51%,rgba(41,137,216,1) 72%,rgba(125,185,232,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(32,124,202,1) 51%,rgba(41,137,216,1) 72%,rgba(125,185,232,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(32,124,202,1) 51%,rgba(41,137,216,1) 72%,rgba(125,185,232,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(32,124,202,1) 51%,rgba(41,137,216,1) 72%,rgba(125,185,232,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+	
+	
+}
+
+/* Menu */
+
+#menuPrincipal {
+	float: left;
+	overflow: hidden;
+	padding: 20px;
+	height: 15px;
+	margin-top:10px;
+}
+
+#menuPrincipal ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menuPrincipal li {
+	display: inline;
+}
+
+#menuPrincipal a {
+	
+	display: block;
+	float: left;
+	padding-right:10px;
+	padding-left:10px;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	color:#FFFFFF;
+	
+}
+
+#menuPrincipal a:hover {
+	background: #95BA2E;
+	color: #FFFFFF;
+	border-color:#FFFFFF;
+	border-style:dotted;
+	border-width:2px;
+
+}
+
+/* Content */
+
+#content {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#colOne {
+	float: left; clear:left;
+	width:20%;
+}
+
+#areaContido {
+	float: right;
+	width: 75%;
+}
+
+#colOne ul {
+	margin-left: 0;
+	padding-left: 0;
+	list-style: none;
+}
+#colOne li {
+	padding: 5px 0 7px 0;
+	width:100%;
+}
+
+#colOne li.first {
+	border: none;
+}
+
+#colOne h3 {
+	font-size: 15px;
+	border-bottom-color:#A4AFBD;
+	border-bottom-style:dotted;
+	border-bottom-width:2px;
+	margin-top:20px;
+}
+#colOne a {width:150px;}
+#colOne a:hover{
+	color:#FFFFFF;
+}
+
+#logo {
+	margin: 0 0 10px 10px;
+	padding-top:5px;
+	padding-right:10px;
+	overflow: hidden;
+}
+#logo h1{
+
+}
+#logo h2 {
+	font-size: 12px;
+	padding-top:10px;
+}
+#logo a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#footer {
+	clear: both;
+	width: 100%;
+	margin: 0 auto;
+	
+	border-top-color:#95BA2E;
+	border-top-style:dotted;
+	border-top-width:4px;
+}
+
+#footer p {
+	margin: 0;
+	padding: 4px;
+	text-align: center;
+}
+object{overflow:hidden;}
+table{list-style:none;}
+#suggestPost{
+top:0;left:0;
+position: fixed;height:25px;width:25px;}
+#suggestPost a:hover{
+background-image:url(images/bAvaliaSE2.png);
+height:25px;width:25px;}
+#suggestPost a{cursor: pointer;
+background-image:url(images/bAvaliaSE.png);
+display:block;height:25px;width:25px;}
+object{overflow:hidden;}
+#backmodal{background-color:rgba(0,0,0, 0.5);text-align:center;}
+#modalw{font-size: 20px;display: inline-table;margin-top:10%;padding: 25px;text-align:justify;font-family: sans-serif;background-color:rgba(255,255,255,1)}
+#cancelbut, #okbut{border-radius:8px;font-size: 28px;color: white;margin-top: 10px; cursor: pointer;}
+#cancelbut:hover, #okbut:hover{box-shadow: inset 0px 0px 20px rgba(0,0,0,1);}
+#cancelbut{padding: 2px 5px 5px 5px;background-color: red;float: left;}
+#okbut{padding: 2px 8px 5px 8px;background-color: green;float:right;s}
